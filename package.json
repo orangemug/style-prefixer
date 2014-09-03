@@ -1,0 +1,24 @@
+{
+  "name": "style-prefixer",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "./node_modules/.bin/testling"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "harness": "mocha",
+    "browsers": [
+      "ie/6..latest",
+      "firefox/24..latest",
+      "chrome/28..latest",
+      "opera/12.0",
+      "opera/15..latest",
+      "iphone/6..latest",
+      "safari/5.1..latest"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^4.2.3",
+    "testling": "^1.7.0"
+  }
+}
