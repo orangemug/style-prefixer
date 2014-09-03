@@ -1,4 +1,4 @@
-# style-prefixer
+# style-prefixer [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
 Add only the style prefixes you need
 
 
